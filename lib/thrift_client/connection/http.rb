@@ -1,4 +1,4 @@
-module Connection
+module Thrift::Connection
   class HTTP < Base
     def connect!
       uri = parse_server(@server)

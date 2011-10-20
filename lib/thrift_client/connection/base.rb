@@ -1,4 +1,4 @@
-module Connection
+module Thrift::Connection
   class Base
     attr_accessor :transport, :server
 

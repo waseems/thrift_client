@@ -1,4 +1,4 @@
-module Connection
+module Thrift::Connection
   class Socket < Base
     def close
       @transport.close
